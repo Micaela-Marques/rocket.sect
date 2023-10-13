@@ -1,0 +1,113 @@
+:root {
+  --collor-de-background: #2f2e41;
+  --collor-text: #fff;
+  --collor-text-span: #00bfa6;
+  --collor-text-section: #c2c2c2;
+}
+
+body {
+  background: var(--collor-de-background);
+  align-items: center;
+}
+.page {
+  margin: 71px auto;
+  max-width: 1280px;
+}
+
+/* Navegação do site*/
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 64px;
+  text-decoration: none;
+}
+
+li a {
+  text-decoration: none;
+}
+
+a {
+  color: var(--collor-text);
+  text-align: center;
+  font-family: JetBrains Mono;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28px;
+}
+li ul a {
+  opacity: 0.5;
+}
+
+ul li a:hover {
+font-weight: bold;
+opacity: 1;
+}
+
+/*Main*/
+
+main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 105px;
+  margin-bottom: 167px;
+}
+
+h1 {
+  color: var(--collor-text);
+  font-family: JetBrains Mono;
+  font-size: 36px;
+  font-style: normal;
+  line-height: 40px;
+  margin-bottom: 59px;
+}
+
+span {
+  color: var(--collor-text-span);
+}
+
+section {
+  color: var(--collor-text-section);
+  text-align: center;
+  font-family: Open Sans;
+  line-height: 28px;
+}
+
+
+/*Rodape*/
+
+footer {
+  display: flex;
+  flex-direction: column;
+  color: var(--collor-text);
+  text-align: center;
+  font-family: JetBrains Mono;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28px;
+  align-items: center;
+  margin-top: 236px;
+}
+
+.line {
+  width: 568.001px;
+  height: 1px;
+  align-items: center;
+  margin-bottom: 27px;
+}
+
+.cadeado {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
